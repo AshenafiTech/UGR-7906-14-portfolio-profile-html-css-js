@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -17,10 +18,10 @@
       <header class="main-title">
         <h1>My <span>Portfolio</span></h1>
     </header>
-    <section id="portfolio">
-        <h4>Here is some of my work.</h4>
+    <section class="portfolio">
+        <h4>Here is some of my work that I have done in various programming languages.</h4>
 
-        <div class="portfolios">
+        <div class="portfolio-lst">
           <!-- Portfolio item 1 -->
           <article class="portfolio-item">
             <figure>
@@ -88,36 +89,35 @@
       </section>
     </main>
 
-    <aside>
-      <nav>
-        <ul>
-          <li>
-            <a href="/src/index.html" aria-label="Home"
-              ><i class="fas fa-home"></i
-            ></a>
-          </li>
-          <li>
-            <a href="/src/about.html" aria-label="About"
-              ><i class="fas fa-user"></i
-            ></a>
-          </li>
-          <li>
-            <a href="/src/portfolio.html" aria-label="Portfolio"
-              ><i class="fas fa-briefcase"></i
-            ></a>
-          </li>
-          <li>
-            <a href="/src/blogs.html" aria-label="Blogs"
-              ><i class="far fa-newspaper"></i
-            ></a>
-          </li>
-          <li>
-            <a href="/src/contact.html" aria-label="Contact"
-              ><i class="fas fa-envelope-open"></i
-            ></a>
-          </li>
-        </ul>
-      </nav>
-    </aside>
+    <div class="controls">
+      <div class="control" data-id="home">
+        <a href="../index.html">
+          <i class="fas fa-home"></i>
+        </a>
+      </div>
+      <div class="control" data-id="about">
+        <a href="./about.html">
+          <i class="fas fa-user"></i>
+        </a>
+      </div> 
+      <div class="control active-btn" data-id="portfolio">
+        <a href="./portfolio.html">
+          <i class="fas fa-briefcase"></i>
+        </a>
+      </div>
+      <div class="control" data-id="blogs">
+        <a href="./blogs.html">
+          <i class="far fa-newspaper"></i>
+        </a>
+      </div>
+      <div class="control" data-id="contact">
+        <a href="./contact.html">
+          <i class="fas fa-envelope-open"></i>
+        </a>
+      </div>
+  </div>
+  <div class="theme-btn">
+    <i class="fas fa-adjust"></i>
+</div>
   </body>
 </html>

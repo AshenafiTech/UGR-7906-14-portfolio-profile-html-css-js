@@ -8,6 +8,7 @@
       content="Contact Ashenafi Godana - Software Engineer, Addis Ababa University student. Connect via email, phone, or social media."
     />
     <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -18,186 +19,138 @@
   </head>
   <body>
     <main class="container" id="contact">
-      <section>
-        <header>
-          <h1 class="main-title"><span class="bg-text">Contact</span></h1>
-        </header>
+      <section class="container contact" id="contact">
         <div class="contact-container">
-          <article>
-            <header>
-              <h2>Contact Me Here</h2>
-              <p>I'd love to connect with you!</p>
-            </header>
-            <dl class="contact-info">
-              <div>
-                <dt><i class="fas fa-map-marker-alt"></i> Location</dt>
-                <dd>Addis Ababa, Ethiopia</dd>
-              </div>
-              <div>
-                <dt><i class="fas fa-envelope"></i> Email</dt>
-                <dd>
-                  <a href="mailto:ashenafigodanaj@gmail.com"
-                    >ashenafigodanaj@gmail.com</a
-                  >
-                </dd>
-              </div>
-              <div>
-                <dt><i class="fas fa-user-graduate"></i> Education</dt>
-                <dd>Addis Ababa University, Addis Ababa</dd>
-              </div>
-              <div>
-                <dt><i class="fas fa-phone-alt"></i> Mobile Number</dt>
-                <dd><a href="tel:+251939278100">+251 939 278 100</a></dd>
-              </div>
-              <div>
-                <dt><i class="fas fa-globe-africa"></i> Languages</dt>
-                <dd>Amharic, English, Afaan Oromo</dd>
-              </div>
-            </dl>
-            <section class="contact-icons">
-              <h3>Connect with me:</h3>
-              <nav>
-                <ul>
-                  <li>
-                    <a
-                      href="https://x.com/AshenafiGodana"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Twitter"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://github.com/AshenafiTech"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="GitHub"
-                      ><i class="fab fa-github"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/in/ashenafig/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="LinkedIn"
-                      ><i class="fab fa-linkedin"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://t.me/Ashenafi_5"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Telegram"
-                      ><i class="fab fa-telegram"></i
-                    ></a>
-                  </li>
-                </ul>
-              </nav>
-            </section>
-            <audio controls>
-              <source src="audio/audio.m4a" type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
-          </article>
-          <aside>
-            <form method="post" class="contact-form">
-              <fieldset>
-                <legend>Send me a message</legend>
-                <div class="input-control i-c-2">
-                  <label for="name">Your Name</label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    required
-                    placeholder="Enter your name"
-                  />
-                  <label for="email">Your Email</label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                    placeholder="Enter your email"
-                  />
+            <div class="main-title">
+                <h2>Contact <span>Me</span></h2>
+            </div>
+            <div class="contact-content-con">
+                <div class="left-contact">
+                    <h4>Contact me here</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        In, laborum numquam? Quam excepturi perspiciatis quas quasi.
+                    </p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Location</span>
+                            </div>
+                            <p>
+                                : Addis Ababa, Ethiopia
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                                <span>Email</span>
+                            </div>
+                            <p>
+                                <span>: ashenafigodanaj@gmail.com</span>
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-user-graduate"></i>
+                                <span>Education</span>
+                            </div>
+                            <p>
+                                <span>: Sussex University, East Sussex</span>
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-user-graduate"></i>
+                                <span>Mobile Number</span>
+                            </div>
+                            <p>
+                                <span>: 07522670617</span>
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-globe-africa"></i>
+                                <span>Languages</span>
+                            </div>
+                            <p>
+                                <span>: Afrikaans, English, Spanish</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-icons">
+                        <div class="contact-icon">
+                            <a href="www.facebook.com" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="input-control">
-                  <label for="subject">Subject</label>
-                  <input
-                    type="text"
-                    id="subject"
-                    name="subject"
-                    required
-                    placeholder="Enter subject"
-                  />
+                <div class="right-contact">
+                    <form action="" class="contact-form">
+                        <div class="input-control i-c-2">
+                            <input type="text" required placeholder="YOUR NAME">
+                            <input type="email" required placeholder="YOUR EMAIL">
+                        </div>
+                        <div class="input-control">
+                            <input type="text" required placeholder="ENTER SUBJECT">
+                        </div>
+                        <div class="input-control">
+                            <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                        </div>
+                        <div class="submit-btn">
+                            <a href="#" class="main-btn">
+                                <span class="btn-text">Download CV</span>
+                                <span class="btn-icon"><i class="fas fa-download"></i></span>
+                            </a>
+                        </div>
+                    </form>
                 </div>
-                <div class="input-control">
-                  <label for="message">Message</label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows="8"
-                    required
-                    placeholder="Write your message here..."
-                  ></textarea>
-                </div>
-                <button type="submit" class="main-btn">
-                  <span class="btn-text">Submit</span>
-                  <span class="btn-icon"
-                    ><i class="fas fa-paper-plane"></i
-                  ></span>
-                </button>
-              </fieldset>
-            </form>
-          </aside>
+            </div>
         </div>
-      </section>
+    </section>
       <footer>
-        <a href="/src/files/resume.pdf" class="main-btn">
-          <span class="btn-text">Download CV</span>
-          <span class="btn-icon"><i class="fas fa-download"></i></span>
-        </a>
       </footer>
     </main>
-    <aside class="theme-btn">
-      <button aria-label="Toggle Theme"><i class="fas fa-adjust"></i></button>
-    </aside>
-    <nav aria-label="Main Navigation">
-      <ul>
-        <li>
-          <a href="/src/index.html"
-            ><i class="fas fa-home" aria-hidden="true"></i>
-            <span class="sr-only">Home</span></a
-          >
-        </li>
-        <li>
-          <a href="/src/about.html"
-            ><i class="fas fa-user" aria-hidden="true"></i>
-            <span class="sr-only">About</span></a
-          >
-        </li>
-        <li>
-          <a href="/src/portfolio.html"
-            ><i class="fas fa-briefcase" aria-hidden="true"></i>
-            <span class="sr-only">Portfolio</span></a
-          >
-        </li>
-        <li>
-          <a href="/src/blogs.html"
-            ><i class="far fa-newspaper" aria-hidden="true"></i>
-            <span class="sr-only">Blogs</span></a
-          >
-        </li>
-        <li>
-          <a href="/src/contact.html"
-            ><i class="fas fa-envelope-open" aria-hidden="true"></i>
-            <span class="sr-only">Contact</span></a
-          >
-        </li>
-      </ul>
-    </nav>
+    
+    <div class="controls">
+      <div class="control" data-id="home">
+        <a href="../index.html">
+          <i class="fas fa-home"></i>
+        </a>
+      </div>
+      <div class="control" data-id="about">
+        <a href="./about.html">
+          <i class="fas fa-user"></i>
+        </a>
+      </div>
+      <div class="control" data-id="portfolio">
+        <a href="./portfolio.html">
+          <i class="fas fa-briefcase"></i>
+        </a>
+      </div>
+      <div class="control" data-id="blogs">
+        <a href="./blogs.html">
+          <i class="far fa-newspaper"></i>
+        </a>
+      </div>
+      <div class="control active-btn" data-id="contact">
+        <a href="./contact.html">
+          <i class="fas fa-envelope-open"></i>
+        </a>
+      </div>
+  </div>
+  <div class="theme-btn">
+    <i class="fas fa-adjust"></i>
+</div>
   </body>
 </html>
